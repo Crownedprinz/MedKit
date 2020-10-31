@@ -1,15 +1,26 @@
 package com.funmilola.medkit.feature.onboarding.customView
 
 import android.content.Context
+
+import android.content.Intent
+
 import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.FrameLayout
+
+=======
+import androidx.core.content.ContextCompat.startActivity
 import androidx.viewpager2.widget.ViewPager2
+import com.funmilola.medkit.LoginActivity
+
 import com.funmilola.medkit.R
 import com.funmilola.medkit.feature.onboarding.OnBoardingPagerAdapter
 import com.funmilola.medkit.feature.onboarding.entity.OnBoardingPage
 import com.funmilola.medkit.domain.OnBoardingPrefManager
+
+import com.funmilola.medkit.feature.onboarding.OnBoardingActivity
+
 import com.tbuonomo.viewpagerdotsindicator.WormDotsIndicator
 import kotlinx.android.synthetic.main.activity_onbording.view.*
 import setParallaxTransformation
@@ -62,7 +73,12 @@ constructor(context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
             setFirstTimeLaunchToFalse()
         }
         startBtn.setOnClickListener {
+
             setFirstTimeLaunchToFalse()
+
+            val intent = Intent(context, LoginActivity::class.java)
+            context.startActivity(intent)
+
         }
     }
 
