@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">MedKit</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_login">LoginActivity</string>
@@ -20,10 +21,12 @@
     <string name="or_sign_in_with">Or sign in with</string>
     <string name="password">Password</string>
     <string name="forgot_your_password">Forgot Your Password?</string>
+
     <string name="onboarding_slide1_title">Create an account</string>
     <string name="onboarding_slide1_subtitle">Connect with people around the world</string>
     <string name="onboarding_slide1_headline">DRUG IDENTIFIER</string>
     <string name="onboarding_slide1_desc">MedKit Allows you scan and identify legal drugs in pharmacies and other distrubutors.</string>
+
     <string name="share">Share</string>
     <string name="text_copied">Copied to clipboard</string>
     <string name="history">History</string>
@@ -31,12 +34,21 @@
     <string name="privacy_policy"><u>Privacy policy</u></string>
     <string name="flashlight_turned_on">Flashlight turned on</string>
     <string name="flashlight_turned_off">Flashlight turned off</string>
+
     <string name="onboarding_slide2_title">Login to your account</string>
     <string name="onboarding_slide2_subtitle">Let\'s build connection with new people</string>
     <string name="onboarding_slide2_headline">MEET A DOC</string>
     <string name="onboarding_slide2_desc">A key feature that allows you find, call and meet doctors around you..</string>
+
+
+    <string name="onboarding_slide3_title">Login to your account</string>
+    <string name="onboarding_slide3_subtitle">Feel the happiness</string>
+    <string name="onboarding_slide3_desc">User will be able to give you live, chat and meet
+        with people nearby.</string>
+
     <string name="nasa_api_key">vhffBqdirTXkXsS1qjKlAMkWx2CtBzNDI5MJwd06</string>
     <string name="title_activity_fullscreen">FullscreenActivity</string>
     <string name="change_layout_manager">Change Layout</string>
+
 
 </resources>
