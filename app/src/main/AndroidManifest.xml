@@ -37,13 +37,12 @@
         <activity android:name=".feature.scan_splash.ScanSplashActivity" />
         <activity android:name=".DoctorProfileActivity" />
         <activity android:name=".feature.meet_a_doc.MeetADoctorActivity" />
-        <activity android:name=".WelcomeActivity">
-            android:parentActivityName=".LoginActivity">
-            <!-- The meta-data tag is required if you support API level 15 and lower -->
+        <activity android:name=".WelcomeActivity"/>
+            <!--activity android:name=".LoginActivity"/>
+            <!- The meta-data tag is required if you support API level 15 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".LoginActivity" />
-        </activity>
         <activity android:name=".SignUpActivity" />
         <activity android:name=".LoginActivity" />
      
