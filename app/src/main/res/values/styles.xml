@@ -18,6 +18,7 @@
     <style name="EditText.Login" parent="Widget.AppCompat.EditText">
         <item name="colorControlNormal">@color/colorGrey</item>
         <item name="colorControlActivated">@color/colorGrey</item>
+
     </style>
     <style name="Widget.MaterialComponents.Button.TextButton.OnBoardTextButton"
         parent="Widget.MaterialComponents.Button.TextButton">
@@ -25,26 +26,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/colorPurple</item>
     </style>
-
-    <style name="AppTheme.OnBoarding">
-        <item name="android:windowSharedElementsUseOverlay">false</item>
-        <item name="android:windowContentTransitions">true</item>
-
-        <item name="android:windowExitTransition">@transition/activity_main_exit</item>
-        <item name="android:windowReenterTransition">@transition/activity_main_reenter</item>
-    </style>
-    <!--Styling TextInputLayout colors-->
-    <style name="EditText.Login" parent="Widget.AppCompat.EditText">
-        <item name="colorControlNormal">@color/colorGrey</item>
-        <item name="colorControlActivated">@color/colorGrey</item>
-    </style>
-    <style name="Widget.MaterialComponents.Button.TextButton.OnBoardTextButton"
-        parent="Widget.MaterialComponents.Button.TextButton">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/colorPurple</item>
-    </style>
-
+<!--    &lt;!&ndash;Styling TextInputLayout colors&ndash;&gt;-->
     <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowBackground">@drawable/bg_splash</item>
     </style>
