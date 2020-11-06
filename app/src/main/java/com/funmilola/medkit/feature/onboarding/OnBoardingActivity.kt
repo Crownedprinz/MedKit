@@ -11,4 +11,5 @@ class OnBoardingActivity : AppCompatActivity() {
         setContentView(R.layout.onboarding_screen2)
     }
 
+
 }
